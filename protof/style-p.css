@@ -1,0 +1,298 @@
+html {
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*{   font-family:'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    justify-content: center;
+    align-items: flex-start;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+  background: url(imggs/background.webp) no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+header{
+   /* padding: 10px 150px 10px 1000px;*/
+    /*padding: 10px 120px 10px 650px;*/
+    box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index:999 ;
+    justify-content: space-between;
+    top: 0;
+    align-items: center;
+   padding: 20px 200px;
+}
+
+.port{
+  font-size: 1em;
+}
+.first a:hover{
+    transition-duration: 1s;
+    border-radius: 7px;
+    background-color: rgb(183, 135, 69);
+    color: orange;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    padding-left: 25px;
+    font-weight: 400;
+    font-size: 2em;
+    transform: scale(1.7);
+}
+nav a:hover{
+    transform: scale(1.7);
+    color: rgb(183, 135, 69);  
+}
+
+.main {
+    padding: 10px 200px;
+    display: block;
+    unicode-bidi: isolate;
+}
+.main{
+    margin: 300px 0 400px;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.main h2,.main h3 {
+    color: rgb(145, 139, 139);
+    border-radius: 50%;
+    font-size: 2.5em;
+    letter-spacing: 1.4px;
+    margin: 0 0 26px ;
+}
+.main p{
+    border-radius: 50%;
+    font-size: 2em;
+    letter-spacing: 1.4px; 
+}
+.main h2 span{
+    display: inline-block;
+    font-size: 5.3em;
+    font-weight: 400;
+    color: rgb(25, 25, 25);
+    margin: 10px 0 10px;
+    border-radius: 50%;
+}
+.main .btn{
+ box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+ padding: 20px 30px;
+ margin: 25px 0 30px;
+ background-color:rgb(159, 118, 68);
+ font-size: 1.4em;
+ font-weight: 100;
+ border-radius: 10px;
+}
+.main .btn:hover{
+    background-color: blanchedalmond;
+    transform: scale(1.1);
+}
+.name{
+    display: flex;
+}
+.con{
+    width: 1000%;
+    height: 100%;
+    background-color:rgb(246, 240, 231);
+}
+.content ,.skills{
+    padding: 0;
+    margin: 0 ;
+    unicode-bidi: isolate;
+}
+.content {
+    margin: 0 0 600px;
+    display: flex;
+}
+.btn2 {
+    display:inline-flex;
+    width:370px;
+    height:90px;
+    margin: 0 15px 70px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.3);
+    padding: 20px;
+}
+.btn2:hover{
+    background-color: blanchedalmond;
+    transform: scale(1.3);
+}
+.b1
+{
+    background-color: rgb(159, 118, 68);
+}
+.img2 img {
+    margin: 0 20px 0 300px;
+}
+.con{
+    display:inline-flex;
+    font-size: 2.4em;
+}
+.first{
+    margin: 50px 40px 10px;
+}
+.first h2,.first p{
+border-radius: 50%;
+}
+.first h2{
+    display: inline-block;
+    font-size: 1.7em;
+    font-weight: 400;
+    color: rgb(25, 25, 25);
+    margin: 10px 0 40px;
+}
+.first p{
+    font-size: 1em;
+    margin: 10px 0 40px;
+}
+.Skills {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-size: 1em;
+    padding: 12px 100px;
+    margin: 0 0 600px;
+    background-color:rgb(246 240 231);;
+}
+.Skills h1{
+    font-size: 5.3em;
+    margin: 60px 0 100px;
+}
+
+#skil{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+#skil .sk1 {
+    justify-content: space-between;
+    margin: 20px 30px ;
+    background-color:rgb(246 240 231);;
+    width: 520px;
+    height: 560px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.3);
+    animation: forwards;
+    text-align: center;
+    font-size: 2em;
+    padding: 100px 5px 240px;
+    border-radius: 4%;
+}
+.fas {
+    font-size: 4em;
+    margin: 0 0 30px;
+    color: rgb(165, 129, 63);
+}
+#skil .sk1:hover {
+    transform: scale(1.1);
+}
+#skil .sk1 h2 {
+    margin: 10px 10px 40px;
+    color:rgb(143, 107, 40);;
+}
+#skil .sk1 p{
+    margin: 3px 12px;
+}
+.project{
+     width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-size: 5em;
+    padding: 12px 100px;
+    margin: 0 0 600px;
+    background-color:rgb(246 240 231);
+}
+.sk2{
+    justify-content: space-between;
+    margin: 20px 30px ;
+    background-color:rgb(246 240 231);;
+    width: 520px;
+    height: 560px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.3);
+    animation: forwards;
+    text-align: center;
+    font-size: 2em;
+    padding: 2px;
+    border-radius: 4%;
+}
+.sk2 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 4%;
+}
+
+footer{
+    height: 100%;
+    background-color:rgb(246 ,240, 231);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0 100px;
+    margin:0 ;
+    margin-top: 100px;
+}
+footer div{
+    margin: 40px 200px;
+}
+footer div .par1{
+    text-align: justify;
+    margin: 40px;
+    font-size: 1.8em;
+}
+footer div .par2
+{
+    text-align: justify;
+    margin: 20px;
+    font-size: 1.8em;
+}
+footer div .title{
+    margin: 200px 50px 180px;
+    font-size: 1.8em;
+}
+.icons{
+    margin: 30px 0 10px;
+    padding:40px 0;
+    display: flex;
+}
+ .icons h3{
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    color:rgb(118, 111, 111) ;
+    margin: 0 0 10px 0;
+}
+.icons a{
+    font-size: 2.6em;
+    padding:7px 10px;
+}
+.fab {
+    font-size: 1.8em;
+    margin: 0 0 30px;
+}
+ .div1 .icons .fab:hover{
+    transform: scale(1.7);
+}
+.end{
+    font-size: 1.5em;
+    margin: 70px 0 0 0;
+}

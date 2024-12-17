@@ -1,0 +1,121 @@
+html, body {
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+header {
+    box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    top: 0;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+.all, .main {
+    padding: 100px 200px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main {
+    background: url(imggs/background.webp) no-repeat center center fixed;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a {
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 1.8em;
+}
+
+nav a:hover {
+    color: rgb(93, 93, 202);
+}
+.port{
+    font-size: 2em;
+  }
+  .main h2,.main h3 {
+    color: rgb(145, 139, 139);
+    border-radius: 50%;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+}
+.main p{
+    border-radius: 50%;
+    font-size: 1.4em;
+    letter-spacing: 1px; 
+}
+.main h2 span{
+    display: inline-block;
+    font-size: 4em;
+    font-weight: 400;
+    color: rgb(25, 25, 25);
+    margin: 10px 0 40px;
+    border-radius: 50%;
+}
+.main .btn{
+ box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+ padding: 20px 30px;
+ margin: 25px 0 30px;
+ background-color:rgb(159, 118, 68);
+ font-size: 1.4em;
+ font-weight: 100;
+ border-radius: 10px;
+}
+.main .btn:hover{
+    background-color: blanchedalmond;
+    transform: scale(1.1);
+}
+.main .icons{
+    justify-content: space-between;
+    margin: 300px 0 10px;
+    padding:40px 0;
+    display: flex;
+}
+.main .icons h3{
+    letter-spacing: 2px;
+    color:rgb(118, 111, 111) ;
+    margin: 0 0 10px 0;
+}
+.main .icons a{
+    font-size: 2.6em;
+    padding:7px 10px;
+}
+.name{
+    display: flex;
+}
+.img1{
+    margin: 0 20px ;
+}
+.content {
+    padding: 100px 200px;
+    margin: 0 ;
+    display: block;
+    unicode-bidi: isolate;
+    display: flex;
+}
+.img2 img {
+    margin: 0 20px;
+    width: 400px;
+    height: 800px;
+}
+.con{
+    display:flex;
+}
